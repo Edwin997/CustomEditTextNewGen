@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomEditText">
+        <attr name="title" format="string" />
+        <attr name="subHint" format="string" />
+        <attr name="error" format="string" />
+        <attr name="size" format="integer" />
+        <attr name="singleLine" format="boolean" />
+        <attr name="isPassword" format="boolean" />
+        <attr name="keyboard" format="integer">
+            <flag name="KeyboardAlphaNumeric" value="1"/>
+            <flag name="KeyboardAlphaNumericComaAndDot" value="2"/>
+            <flag name="KeyboardNumeric" value="3"/>
+            <flag name="KeyboardAlphaNumericComaSlashAndDot" value="4"/>
+            <flag name="KeyboardNumberAndSlash" value="5"/>
+        </attr>
+        <attr name="maxLength" format="integer"/>
+        <attr name="messageSize" format="integer" />
+        <attr name="notEmpty" format="boolean"/>
+        <attr name="minLengthAlphabet" format="integer" />
+        <attr name="minLengthDigit" format="integer" />
+        <attr name="message" format="string" />
+        <attr name="isRounded" format="integer">
+            <flag name="roundedAll" value="1"/>
+            <flag name="roundedTop" value="2"/>
+            <flag name="roundedBottom" value="3"/>
+            <flag name="transparent" value="4"/>
+        </attr>
+        <attr name="backgroundColor" format="integer"/>
+        <attr name="titleAppearance" format="integer" />
+        <attr name="textHintColor" format="integer|color"/>
+        <attr name="subHintApperance" format="integer" />
+        <attr name="errorApperance" format="integer" />
+    </declare-styleable>
+</resources>
